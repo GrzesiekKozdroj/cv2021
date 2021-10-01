@@ -12,387 +12,387 @@ import img12 from '../img/rusersapp.png';
     }
 
 const models = {
-     DarkAngels:[
+    "Warhammer 40000: Dark Angels":[
         {
             text:'ravenwing flier',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150910_074515.jpg`,
-            link:'link to large version'
-        },
-        {
-            text:'ravenwing flier',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150910_074604.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150910_074515.jpg`,
+            link:'20150910_074515.jpg'
         },
         {
             text:'ravenwing flier',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150910_074925.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150910_074604.jpg`,
+            link:'20150910_074604.jpg'
         },
         {
             text:'ravenwing flier',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150912_010719.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150910_074925.jpg`,
+            link:'20150910_074925.jpg'
+        },
+        {
+            text:'ravenwing flier',
+            img:`${process.env.PUBLIC_URL}/assets/20150912_010719.jpg`,
+            link:'20150912_010719.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_132249.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_132249.jpg`,
+            link:'20150917_132249.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_132351.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_132351.jpg`,
+            link:'20150917_132351.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_132631.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_132631.jpg`,
+            link:'20150917_132631.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_132813.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_132813.jpg`,
+            link:'20150917_132813.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_132919.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_132919.jpg`,
+            link:'20150917_132919.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_133018.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_133018.jpg`,
+            link:'20150917_133018.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_133500.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_133500.jpg`,
+            link:'20150917_133500.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_133826.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_133826.jpg`,
+            link:'20150917_133826.jpg'
         },
         {
             text:'deathwing terminators',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_133858.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_133858.jpg`,
+            link:'20150917_133858.jpg'
         },
         {
             text:'dark angels tactical marines',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_135017.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_135017.jpg`,
+            link:'20150917_135017.jpg'
         },
         {
             text:'dark angels tactical marines',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20150917_135100.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150917_135100.jpg`,
+            link:'20150917_135100.jpg'
         },
         {
             text:'ravenwing knights',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160116_015903.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160116_015903.jpg`,
+            link:'20160116_015903.jpg'
         },
         {
             text:'ravenwing knights',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160116_015919.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160116_015919.jpg`,
+            link:'20160116_015919.jpg'
         },
         {
             text:'ravenwing knights',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160116_015947.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160116_015947.jpg`,
+            link:'20160116_015947.jpg'
         },
         {
             text:'ravenwing librarian',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160116_020040.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160116_020040.jpg`,
+            link:'20160116_020040.jpg'
         },
         {
             text:'ravenwing techmarine',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160116_020204.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160116_020204.jpg`,
+            link:'20160116_020204.jpg'
         },
         {
             text:'dark angels captain',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160116_020223.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160116_020223.jpg`,
+            link:'20160116_020223.jpg'
         },
         {
             text:'dark angels land raider with las-cannons',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_204801.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_204801.jpg`,
+            link:'20160312_204801.jpg'
         },
         {
             text:'dark angels land raider with las-cannons',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_204814.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_204814.jpg`,
+            link:'20160312_204814.jpg'
         },
         {
             text:'dark angels land raider with las-cannons',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_204857.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_204857.jpg`,
+            link:'20160312_204857.jpg'
         },
         {
             text:'dark angels land raider with multi-meltas',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_204915.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_204915.jpg`,
+            link:'20160312_204915.jpg'
         },
         {
             text:'dark angels land raider with multi-meltas',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_204928.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_204928.jpg`,
+            link:'20160312_204928.jpg'
         },
         {
             text:'dark angels land raider with multi-meltas',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_204943.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_204943.jpg`,
+            link:'20160312_204943.jpg'
         },
         {
             text:'dark angels land raider crusader',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_205002.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_205002.jpg`,
+            link:'20160312_205002.jpg'
         },
         {
             text:'dark angels land raider crusader',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_205013.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_205013.jpg`,
+            link:'20160312_205013.jpg'
         },
         {
             text:'dark angels land raider crusader',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_205047.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_205047.jpg`,
+            link:'20160312_205047.jpg'
         },
         {
             text:'dark angels land raider crusader',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/20160312_205108.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160312_205108.jpg`,
+            link:'20160312_205108.jpg'
         },
         {
             text:'dark angels ravenwing standard',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/1536365725474.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/1536365725474.jpg`,
+            link:'1536365725474.jpg'
         },
         {
             text:'dark angels old land raider',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/DSC03164.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03164.JPG`,
+            link:'DSC03164.JPG'
         },
         {
             text:'dark angels chaplain',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/DSC03649.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03649.JPG`,
+            link:'DSC03649.JPG'
         },
         {
             text:'day I won gold on armies on parade with my painting',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/DSC03660.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03660.JPG`,
+            link:'DSC03660.JPG'
         },
         {
             text:'dreadnaught with magnetised arms',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/DSC03685.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03685.JPG`,
+            link:'DSC03685.JPG'
         },
         {
             text:'dreadnaught',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/DSC03685.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03685.JPG`,
+            link:'DSC03685.JPG'
         },
         {
             text:'ravenwing bikes',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/DSC03801.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03801.JPG`,
+            link:'DSC03801.JPG'
         },
         {
             text:'ravenwing bikes',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/DSC03799.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03799.JPG`,
+            link:'DSC03799.JPG'
         },
         {
             text:'sammael, captain of the ravenwing',
-            img:`${process.env.PUBLIC_URL}/assets/DarkAngels/DSC03769.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03769.JPG`,
+            link:'DSC03769.JPG'
         },
     ],
-    Bretonnia: [
+    "Warhammer Fantasy: Bretonnia": [
         {
             text:'trebuchet conversion with halflings and rhinox',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/1536365725352.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/1536365725352.jpg`,
+            link:'1536365725352.jpg'
         },
         {
             text:'old standard bearer',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC01637.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC01637.JPG`,
+            link:'DSC01637.JPG'
         },
         {
             text:'paladins horse',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC01778.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC01778.JPG`,
+            link:'DSC01778.JPG'
         },
         {
             text:'paladins on horse',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC01785.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC01785.JPG`,
+            link:'DSC01785.JPG'
         },
         {
             text:'ogre captain for man-at-arms',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC01834.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC01834.JPG`,
+            link:'DSC01834.JPG'
         },
         {
             text:'converting standard of eternal flame',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC01869.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC01869.JPG`,
+            link:'DSC01869.JPG'
         },
         {
             text:'finished of eternal flame',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC01873.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC01873.JPG`,
+            link:'DSC01873.JPG'
         },
         {
             text:'augillac, paladin on pegasus conversion',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02177.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02177.JPG`,
+            link:'DSC02177.JPG'
         },
         {
             text:'augillac, paladin on pegasus conversion',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02191.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02191.JPG`,
+            link:'DSC02191.JPG'
         },
         {
             text:'lance formation of questing knights',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02384.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02384.JPG`,
+            link:'DSC02384.JPG'
         },
         {
             text:'lance formation of questing knights',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02390.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02390.JPG`,
+            link:'DSC02390.JPG'
         },
         {
             text:'pegasus knight',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02398.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02398.JPG`,
+            link:'DSC02398.JPG'
         },
         {
             text:'pegasus knight',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02426.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02426.JPG`,
+            link:'DSC02426.JPG'
         },
         {
             text:'pegasus knight',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02434.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02434.JPG`,
+            link:'DSC02434.JPG'
         },
         {
             text:'pegasus knight',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02444.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02444.JPG`,
+            link:'DSC02444.JPG'
         },
         {
             text:'pegasus knight',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC02450.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC02450.JPG`,
+            link:'DSC02450.JPG'
         },
         {
             text:'damsel',
-            img:`${process.env.PUBLIC_URL}/assets/Bretts/DSC03755.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03755.JPG`,
+            link:'DSC03755.JPG'
         },
 
     ],
-    Trollbloods: [
+    "Hordes: Trollbloods": [
         {
             text:'northkin fire eaters',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/20150918_135003.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150918_135003.jpg`,
+            link:'20150918_135003.jpg'
         },
         {
             text:'northkin fire eaters',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/20150918_135054.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20150918_135054.jpg`,
+            link:'20150918_135054.jpg'
         },
         {
             text:'war wagon',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/20151123_005844.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20151123_005844.jpg`,
+            link:'20151123_005844.jpg'
         },
         {
             text:'war wagon',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/20151123_010006.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20151123_010006.jpg`,
+            link:'20151123_010006.jpg'
         },
         {
             text:'dozer and smigg',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/20160126_094650.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/20160126_094650.jpg`,
+            link:'20160126_094650.jpg'
         },
         {
             text:'sorcerer',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/1536365726673.jpg`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/1536365726673.jpg`,
+            link:'1536365726673.jpg'
         },
         {
             text:'madrak',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03636.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03636.JPG`,
+            link:'DSC03636.JPG'
         },
         {
             text:'mulg the ancient',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03646.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03646.JPG`,
+            link:'DSC03646.JPG'
         },
         {
             text:'runebearer',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03737.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03737.JPG`,
+            link:'DSC03737.JPG'
         },
         {
             text:'storm troll',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03803.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03803.JPG`,
+            link:'DSC03803.JPG'
         },
         {
             text:'troll with beer and cigar',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03821.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03821.JPG`,
+            link:'DSC03821.JPG'
         },
         {
             text:'stone bearers',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03825.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03825.JPG`,
+            link:'DSC03825.JPG'
         },
         {
             text:'dygmies',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03858.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03858.JPG`,
+            link:'DSC03858.JPG'
         },
         {
             text:'whelps',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03860.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03860.JPG`,
+            link:'DSC03860.JPG'
         },
         {
             text:'long riders',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03889.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03889.JPG`,
+            link:'DSC03889.JPG'
         },
         {
             text:'earthborn',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03893.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03893.JPG`,
+            link:'DSC03893.JPG'
         },
         {
             text:'earthborn',
-            img:`${process.env.PUBLIC_URL}/assets/trollz/DSC03895.JPG`,
-            link:'link to large version'
+            img:`${process.env.PUBLIC_URL}/assets/DSC03895.JPG`,
+            link:'DSC03895.JPG'
         },
 
     ],
-    GuildBall: [],
-    Malifaux: [],
-    OddMinis: [],
+    // GuildBall: [],
+    // Malifaux: [],
+    // OddMinis: [],
 }
 const longWait = ''
 const projects = [

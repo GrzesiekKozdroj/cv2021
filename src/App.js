@@ -4,6 +4,7 @@ import 'materialize-css/dist/css/materialize.min.css'
 import M from "materialize-css";
 import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { createBrowserHistory } from "history";
 import Minis from './components/Minis'
 import Thoughts from './components/Thoughts'
 import CodinProjects from './components/CodinProjects'
@@ -12,13 +13,18 @@ import Home from './components/Home'
 import pack from './components/vars'
 require('./motion-ui.css')
 
+const customHistory = createBrowserHistory();
+
+
+
+
 const App = () => {
   useEffect(() => {
     M.AutoInit()
    }, [])
   return (
     <div className="App">
-      <Router>
+      <Router history={customHistory}>
           <nav>
             <div className="nav-wrapper #4caf50 green darken-4">
               <Link to="/" exact className="brand-logo">Lego</Link>
@@ -43,7 +49,7 @@ const App = () => {
             <Route path="/" exact component={Home} />
             <Route path="/whoami" component={Whoami} />
             <Route path="/codin_projects"  component={CodinProjects} />
-            <Route path="/minis"  component={Minis} />
+            <Route path="/minis" component={Minis} />
             <Route path="/thoughts" component={Thoughts} />
           </Switch>
       </Router>
