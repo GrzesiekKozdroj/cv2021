@@ -1,6 +1,3 @@
-
-
-//import da1 from '../img/modelz/DarkAngels/20150910_074515.jpg'
 import { useEffect, Component, } from 'react'
 import { BrowserRouter as Router, Route, Link, Switch, useParams, useRouteMatch, useHistory } from "react-router-dom";
 import M from 'materialize-css'
@@ -53,17 +50,15 @@ const Minis = ()=> {
         load = [...load, <Carusel imagesLoad={item} header={key} path={path} url={url} key={key} /> ]
     }
     return (
-        <>
+        <div className="contentBlock">
             <h1 className="modelsCategories green-text text-darken-4">miniatures I've painted</h1>
-            <Router>
                 {load}
                 <Switch>
                     <Route exact path={`${path}/:imageId`} >
                         <SingleImg onClick={returnToMinisClick}/>
                     </Route>
                 </Switch>
-            </Router>
-        </>
+        </div>
     )
 }
 export default Minis

@@ -40,7 +40,7 @@ const App = () => {
 
           <ul class="sidenav" id="mobile-demo"  >
             <li><Link to="/whoami/" >about me</Link></li>
-            <li><Link to="/codin_projects/" >coding projects</Link></li>
+            <li><Link to="/codin_projects/" exact >coding projects</Link></li>
             <li><Link to="/minis/" >miniature gallery</Link></li>
             <li><Link to="/thoughts/" >thoughts</Link></li>
           </ul>

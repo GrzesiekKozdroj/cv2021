@@ -7,6 +7,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+::-webkit-scrollbar {
+  display: none;
+  width:0;
+}
+*{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,7 +25,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,10 +70,50 @@
   transform: translate(-50%, -50%);
 }
 .fakeContajner{
-  top:0;
   left:0;
   width: 100vw;
-  height: 100vh;
+  height: 93vh;
+  top: 7vh;
   background-color: #282c34e3;
   position: fixed;
 }
+nav{
+  height:8vh;
+  z-index: 100;
+  margin:0;
+  width:100vw;
+}
+.contentBlock{
+  overflow-y: scroll;
+  height:92vh;
+  width:100vw;
+  margin:0;
+    scrollbar-width: thin;  /* Firefox */
+    -ms-overflow-style: scrollbar;
+}
+.contentBlock::-webkit-scrollbar {
+  width:12px;
+}
+
+.contentBlock::-webkit-scrollbar {
+  display: default;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+  margin:0;
+}
+.article{
+  width: 100vw;
+  height:100%;
+  background-color: whitesmoke;
+}
+.articleTitle{
+  margin-top:0;
+}
+.articleImg{
+  display: inline-block;
+  max-height:60vh;
+  max-width: 60vw;
+}
+
