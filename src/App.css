@@ -116,4 +116,52 @@ nav{
   max-height:60vh;
   max-width: 60vw;
 }
+.mePhotoDiv{
+  height:30vh;
+  width:30vh;
+  overflow: hidden;
+  padding-top:-10vh;
+  border-radius: 50%;
+}
+.mePhoto{
+  max-width:30vh;
+}
+.picBlock{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  
+}
+.titlesBlock{
+  max-width:650px;
+}
+.nextSection{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nextSectionTitle{
+  width:100%;
+}
+.nickName{
+  font-weight: bold;
+}
+.contact{
+  display:flex;
+  justify-content: space-evenly;
 
+}
+.whoami{
+  margin-top:2vw;
+}
+.Canva{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  background-color:black;
+  width:100vw;
+  height:100vh;
+  margin:0;
+}

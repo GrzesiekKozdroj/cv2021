@@ -10,7 +10,9 @@ import Thoughts from './components/Thoughts'
 import CodinProjects from './components/CodinProjects'
 import Whoami from './components/Whoami'
 import Home from './components/Home'
+import Canva from './components/Canva'
 import pack from './components/vars'
+import anime from './components/canvaAnimations'
 require('./motion-ui.css')
 
 const customHistory = createBrowserHistory();
@@ -24,6 +26,7 @@ const App = () => {
    }, [])
   return (
     <div className="App">
+      <Canva draw={anime}/>
       <Router history={customHistory}>
           <nav>
             <div className="nav-wrapper #4caf50 green darken-4">
