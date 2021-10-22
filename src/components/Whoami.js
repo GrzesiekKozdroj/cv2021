@@ -2,6 +2,7 @@ const B = ({txt}) => <spam className="nickName">{txt}</spam>
 const Whoami = () => {
     return(
         <div className="whoami white-text">
+            <header id="whoami" />
             <div className="picBlock">
                 <div className="mePhotoDiv">
                     <img src={`${process.env.PUBLIC_URL}/assets/Greg.jpg`} className="mePhoto" />

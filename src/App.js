@@ -1,60 +1,53 @@
 import logo from './logo.ico';
-import { useState, useEffect, Component } from 'react'
+import {  useEffect } from 'react'
 import 'materialize-css/dist/css/materialize.min.css'
 import M from "materialize-css";
 import './App.css';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, useParams } from "react-router-dom";
 import { createBrowserHistory } from "history";
+import Navbar from './components/Navbar'
 import Minis from './components/Minis'
 import Thoughts from './components/Thoughts'
 import CodinProjects from './components/CodinProjects'
 import Whoami from './components/Whoami'
 import Home from './components/Home'
 import Canva from './components/Canva'
-import pack from './components/vars'
 import anime from './components/canvaAnimations'
+import SingleImg from './components/SingleImg'
+import SingleProject from './components/SingleProject'
 require('./motion-ui.css')
 
 const customHistory = createBrowserHistory();
 
 
-
-
 const App = () => {
+
+  const ExpandedContent = ()=>{
+    let { Id } = useParams()
+    return ( Id.length < 3 ? <SingleProject id={Id}  /> : <SingleImg id={Id} /> )
+  }
+
   useEffect(() => {
     M.AutoInit()
    }, [])
+
   return (
     <div className="App">
-      <Canva draw={anime}/>
+      <Canva draw={anime} />
       <Router history={customHistory}>
-          <nav>
-            <div className="nav-wrapper #4caf50 green darken-4">
-              <Link to="/" exact className="brand-logo">Lego</Link>
-              <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul className="right hide-on-med-and-down">
-                <li><Link to="/whoami/" >about me</Link></li>
-                <li><Link to="/codin_projects/" >coding projects</Link></li>
-                <li><Link to="/minis/" >miniature gallery</Link></li>
-                <li><Link to="/thoughts/" >thoughts</Link></li>
-              </ul>
-            </div>
-          </nav>
-
-          <ul class="sidenav" id="mobile-demo"  >
-            <li><Link to="/whoami/" >about me</Link></li>
-            <li><Link to="/codin_projects/" exact >coding projects</Link></li>
-            <li><Link to="/minis/" >miniature gallery</Link></li>
-            <li><Link to="/thoughts/" >thoughts</Link></li>
-          </ul>
-
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/whoami" component={Whoami} />
-            <Route path="/codin_projects"  component={CodinProjects} />
-            <Route path="/minis" component={Minis} />
-            <Route path="/thoughts" component={Thoughts} />
-          </Switch>
+        <Navbar />
+        <div className="contentBlock">
+          <Home />
+          <Whoami/>
+          <CodinProjects/>
+          <Minis/>
+          <Thoughts/>
+        </div>
+        <Switch>
+            <Route  path={`/:Id`} >
+               <ExpandedContent />
+            </Route>
+        </Switch>
       </Router>
     </div>
   )

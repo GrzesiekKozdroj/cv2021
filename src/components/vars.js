@@ -5,7 +5,8 @@ import img7 from '../img/tech-doc.png'; import img8 from '../img/fractal.png'; i
 import img10 from '../img/forum.png';
 import img11 from '../img/Godtear.png';
 import img12 from '../img/rusersapp.png';
-    let templatos = {
+    let templatos = null
+    templatos = {
         text:'photoname',
         img:`${process.env.PUBLIC_URL}/assets/battles/20150729_202952_Burst01.jpg`,
         link:'link to large version'
