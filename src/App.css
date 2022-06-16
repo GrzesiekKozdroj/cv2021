@@ -16,7 +16,6 @@
   scrollbar-width: none;  /* Firefox */
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -154,7 +153,8 @@ nav{
 
 }
 .whoami{
-  margin-top:2vw;
+  margin: auto auto;
+  height: 80vh;
 }
 .Canva{
   position:absolute;
@@ -164,4 +164,32 @@ nav{
   background-color:rgb(10, 16, 29);
   margin:0;
   color:rgb(6, 51, 2)
+}
+@media only screen and (max-width: 780px){
+    .picBlock{
+      display:flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+
+    }
+    .whoami{
+      height: 95vh;
+    }
+    nav{
+      height:12vh;
+      padding-top:1vh;
+      background-color: rgb(27 94 32);
+    }
+  }
+.btn-floating.btn-large.waves-effect.left.waves-light.green.darken-4{
+  margin:10px;
+}
+
+.article {
+  background-color: #f5f5f533;
+}
+.article-links{
+  margin-left: 20px;
+  margin-right:20px;
 }

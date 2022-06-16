@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+//npm start to start
+//npm run build to compile
+//npm run deploy to deeploy

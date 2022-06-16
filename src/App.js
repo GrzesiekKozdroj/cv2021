@@ -44,7 +44,7 @@ const App = () => {
           <Thoughts/>
         </div>
         <Switch>
-            <Route  path={`/:Id`} >
+            <Route  path={`/cv/:Id`} >
                <ExpandedContent />
             </Route>
         </Switch>

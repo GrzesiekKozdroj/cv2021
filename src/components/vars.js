@@ -4,7 +4,7 @@ import img4 from '../img/oldCV.jpg'; import img5 from '../img/mailing_pod_chmura
 import img7 from '../img/tech-doc.png'; import img8 from '../img/fractal.png'; import img9 from '../img/todos.png';
 import img10 from '../img/forum.png';
 import img11 from '../img/Godtear.png';
-import img12 from '../img/rusersapp.png';
+import img12 from '../img/rusersapp.png'; import img13 from '../img/spawacz.jpg'; import img14 from '../img/photor.jpg'
     let templatos = null
     templatos = {
         text:'photoname',
@@ -398,7 +398,25 @@ const models = {
 const longWait = ''
 const projects = [
     {
-        text: 'Tic-tac-toe game using jQuery. But with a twist, you need fiveinstead of three fields in horizontal, diagonal or vertical row. Click on picture for live example, or description fo github repo.' + longWait,
+        text: 'My friend, a photographer, wanted super simple landing page.' + longWait,
+        img: img14,
+        url: 'https://github.com/GrzesiekKozdroj/michal-photography',
+        urlExample: 'https://grzesiekkozdroj.github.io/michal-photography/',
+        alt: 'picture of a photographer\'s landing page',
+        title: 'photographer\'s landing page',
+        routerUrl:'photographer'
+    },
+    {
+        text: 'My friend, a welder, wanted super simple landing page.' + longWait,
+        img: img13,
+        url: 'https://github.com/GrzesiekKozdroj/spawacz',
+        urlExample: 'https://grzesiekkozdroj.github.io/spawacz/',
+        alt: 'picture of a welder\'s landing page',
+        title: 'welder\'s landing page',
+        routerUrl:'spawacz'
+    },
+    {
+        text: 'Tic-tac-toe game using jQuery, node and socket.io. But with a twist, you need five symbols instead of three in horizontal, diagonal or vertical row. Click on live example and send this link to your friend so you can play against each other. There is also a chat option. And if more people want to play this game they will join their own little room with their own local chat. If you rather see the code, its on github repo.' + longWait,
         img: img1,
         url: 'https://github.com/GrzesiekKozdroj/tic-tac-toe-5',
         urlExample: 'https://larhs-tic-tac-toe-five.herokuapp.com/',
@@ -407,7 +425,7 @@ const projects = [
         routerUrl:'ttt5'
     },
     {
-        text: 'This is the first attempt at converting physical tabletop game - Guild Ball into jQuery, JavaScript and HTML canvas game. Intention is to make interface that allows players to enjoy the game while also limiting their manuverability to what is legal rules wise.' + longWait,
+        text: 'This is the first attempt at converting physical tabletop game - Guild Ball into, JavaScript and HTML canvas game. Intention is to make interface that allows players to enjoy the game while also limiting their manuverability to what is legal rules wise. There is no sever behind this and all moves happen locally.' + longWait,
         img: img2,
         url: 'https://github.com/GrzesiekKozdroj/gimball',
         urlExample: 'https://grzesiekkozdroj.github.io/Guild-Ball/',
@@ -416,7 +434,7 @@ const projects = [
         routerUrl:'gb'
     },
     {
-        text:'Godtear is board game invented by SFG, this project is accurate replica of physical board game made into JavaScript, live on heroku, its a multiplayer pvp board game utilising jQuery, socket.io, express and node.js' + longWait,
+        text:"Godtear is board game invented by Steamforged Games. This project is accurate replica of physical board game. Made with JavaScript, live on heroku. It is player versus player board game, utilising jQuery, socket.io, express and node.js. You would have to familiarise yourself with Godtear rules and get someone to play against to be able to enjoy it. Or you could open two browser windows, choose champions on both windows and the same 'place', nickname is not really important. And this would allow you to practice superior strategies" + longWait,
         img:img11,
         url:'https://github.com/GrzesiekKozdroj/pGodtear',
         urlExample:'https://godtear.herokuapp.com/',
@@ -425,7 +443,7 @@ const projects = [
         routerUrl:'gopv'
     },
     {
-        text: 'Bootcamp project with Pixel Perfect and basic HTML & CSS. Very simple and out of date mock up shop that sells chairs. Click on picture for live example, or description fo github repo.' + longWait,
+        text: 'Bootcamp project made with Pixel Perfect, basic HTML & CSS. Very simple and out of date mock up shop that is supposed to pretend to sells chairs.' + longWait,
         img: img3,
         url: 'https://github.com/GrzesiekKozdroj/Sit-On-Chair-Web-Page',
         urlExample: 'https://grzesiekkozdroj.github.io/Sit-On-Chair-Web-Page/',
@@ -434,7 +452,7 @@ const projects = [
         routerUrl:'soc'
     },
     {
-        text: 'Old CV of mine, static and classic, but still functional, I had fun using react while developing it. Click on picture for live example, or description fo github repo.' + longWait,
+        text: 'Old CV of mine, static and classic, but still functional, I had fun using react while developing it.' + longWait,
         img: img4,
         url: 'https://github.com/GrzesiekKozdroj/Grzesiek-Kozdroj-Old_CV/',
         urlExample: 'https://grzesiekkozdroj.github.io/Grzesiek-Kozdroj-Old_CV/',
@@ -443,7 +461,7 @@ const projects = [
         routerUrl:'ocv'
     },
     {
-        text:'Mailing example we have done as a workshop durning Coders Lab course. Click on picture for live example, or description fo github repo.' + longWait,
+        text:'Mailing example we have done as a workshop durning Coders Lab course.' + longWait,
         img:img5,
         url:'https://github.com/GrzesiekKozdroj/Coders-Lab-Workshop-Mailing',
         urlExample:'https://grzesiekkozdroj.github.io/Coders-Lab-Workshop-Mailing/',
@@ -452,7 +470,7 @@ const projects = [
         routerUrl:'ml'
     },
     {
-        text:"Created simple server, this was just an exercise to help me understand better how to create database and connect it with self-written server and send that data to front-end with options to add, edit and delete." + longWait,
+        text:"A simple server. This was just an exercise, a warm up, to help me understand better how to create database and connect it with self-written server and send that data to front-end with options to add, edit and delete." + longWait,
         img:img6,
         url:'https://github.com/GrzesiekKozdroj/MERN-stack-first-learning-project',
         urlExample:'https://github.com/GrzesiekKozdroj/MERN-stack-first-learning-project',
@@ -461,7 +479,7 @@ const projects = [
         routerUrl:'mst'
     },
     {
-        text:'Mockup of a teachnical documentation page, project was requiered by freeCodeCamp to complete one of their courses. It uses none of fancy new web techologies, it does not need them.' + longWait,
+        text:'Mockup of a technical documentation page, project was requiered by freeCodeCamp to complete one of their courses. It uses none of fancy new web techologies, it does not need them.' + longWait,
         img:img7,
         url:'https://github.com/GrzesiekKozdroj/technical-documentation',
         urlExample:'https://grzesiekkozdroj.github.io/technical-documentation/',
@@ -470,7 +488,7 @@ const projects = [
         routerUrl:'tecdoc'
     },
     {
-        text:'I wondered why there are no awesome infinitely zooming in fractals out there untill I tried to make my own and got crushed by how long it take to generate just one frame. Here is a fine example of this obstacle. I will try to optimise it though. This project is just too trippy.' + longWait,
+        text:'I wondered why there are no awesome infinitely zooming in fractals out there untill I tried to make my own and got crushed by how long it take to generate just one frame. Here is a fine example of this obstacle. Maybe one day I will try to optimise it though. This project is just too trippy.' + longWait,
         img:img8,
         url:'https://github.com/GrzesiekKozdroj/mandelbrot-react-SLOW',
         urlExample:'https://grzesiekkozdroj.github.io/mandelbrot-react-SLOW/',
@@ -497,7 +515,7 @@ const projects = [
         routerUrl:'fmock'
     },
     {
-        text:'In this exercise project, I learned how I can use React, Redux and Node together to create a simple application that consumes API from https://randomuser.me/' + longWait,
+        text:'In this exercise project, I learned how I can use react, redux and node together to create a simple application that consumes API from https://randomuser.me/' + longWait,
         img:img12,
         url:'https://github.com/GrzesiekKozdroj/react-project-users-list-full-stack',
         urlExample:'https://larhendiel-rng-user-app.herokuapp.com/',

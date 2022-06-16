@@ -17,12 +17,8 @@ const Canva = props => {
         function handleResize() {
             setWindowDimensions(getWindowDimensions());
           }
-      
         window.addEventListener('resize', handleResize);
-        const canvas = canvasRef.current
-        const context = canvas.getContext('2d')
-        draw(context)
-      }, [draw])
+      }, [])
 
     return (
         <canvas className="Canva" id="Canva" ref={canvasRef}  {...rest} width={width} height={height} />

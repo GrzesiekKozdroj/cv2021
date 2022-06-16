@@ -1,26 +1,44 @@
 import { NavHashLink as HLink } from 'react-router-hash-link'
+const classes = "white-text"
+const NavButtonTemplate = ({to, text},i)=>{
+    return (
+        <li>
+            <HLink 
+                smooth 
+                activeClassName="selected" 
+                className = {classes}
+                to={to} 
+                key={i}
+            >{text}</HLink>
+        </li>
+    )
+}
+const nB = (to, text) => {return {to, text}}
+const linker = "/cv"
+const navButtons = [
+    nB(`${linker}/#whoami`, 'about me'), 
+    nB(`${linker}/#codin_projects`,'coding projects'), 
+    nB(`${linker}/#minis`,'miniature gallery'), 
+    nB(`${linker}/#thoughts`,'thoughts')
+]
+const loadz = navButtons.map( (el,i)=> NavButtonTemplate(el,i) )
+console.log(loadz)
 const Navbar = () => {
     return (
         <>
             <nav>
                 <div className="nav-wrapper #4caf50 green darken-4">
-                    <a href="/" exact className="brand-logo">[@_* ]</a>
+                    <a href="/cv/" exact className="brand-logo">[@_* ]</a>
                     <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down">
-                        <li><HLink smooth activeClassName="selected" to="/#whoami" >about me</HLink></li>
-                        <li><HLink smooth activeClassName="selected" to="/#codin_projects" >coding projects</HLink></li>
-                        <li><HLink smooth activeClassName="selected" to="/#minis" >miniature gallery</HLink></li>
-                        <li><HLink smooth activeClassName="selected" to="/#thoughts" >thoughts</HLink></li>
+                        { loadz }
                     </ul>
                 </div>
-            </nav>
 
             <ul className="sidenav green darken-4 white-text" id="mobile-demo"  >
-                <li><HLink smooth activeClassName="selected" className="white-text" to="/whoami" >about me</HLink></li>
-                <li><HLink smooth activeClassName="selected" className="white-text" to="/codin_projects" exact >coding projects</HLink></li>
-                <li><HLink smooth activeClassName="selected" className="white-text" to="/minis" >miniature gallery</HLink></li>
-                <li><HLink smooth activeClassName="selected" className="white-text" to="/thoughts" >thoughts</HLink></li>
+                { loadz }
             </ul>
+            </nav>
         </>
     )
 }

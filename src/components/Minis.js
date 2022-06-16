@@ -6,19 +6,19 @@ const Picture = (props) => {
     const {text, img, link} = props.props
     const { url } = props
     return (
-        <Link className="carousel-item" to={url+link}>
+        <Link className="carousel-item" to={'/cv'+url+link}>
             <img className="responsive-img " src={img} alt={text}/>
             <span className="white-text text-darken-4">{text}</span>
         </Link>
     )
 }
 const Carusel = (props) => {
-    const {imagesLoad, header, path, url, key } = props
+    const { imagesLoad, header, path, url, key } = props
     return (
         <>
             <h4 className="modelsCategories white-text text-darken-4" key={key} >{header}</h4>
             <div className="carousel">
-                {imagesLoad.map( el => <Picture props={el} path={path} url={url} /> )}
+                { imagesLoad.map( el => <Picture props={el} path={path} url={url} /> ) }
             </div>
         </>
     )

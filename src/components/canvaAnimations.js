@@ -92,6 +92,7 @@ let ctx;
 let canvas;
 let time;
 
+
 function tick(newTime){
     let delta = (newTime - time) / 1000.0
     time = newTime;

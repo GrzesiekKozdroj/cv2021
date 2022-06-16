@@ -1,6 +1,5 @@
 import Card from './Card.js'
 import pack from './vars'
-import { useEffect } from 'react'
 import { useRouteMatch } from 'react-router-dom'
 
 

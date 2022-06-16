@@ -6,7 +6,7 @@ const Card = (props) => {
     return (
         <div className="col s12 m3">
             <div className="card small">
-                <Link to={'/'+ind} >
+                <Link to={'/cv/'+ind} >
                     <div className="card-image projectImage">
                         <img src={img} alt={alt}/>
                         <span className="card-title">{title}</span>

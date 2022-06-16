@@ -1,18 +1,17 @@
-import { Link } from 'react-router-dom'
 import pack from './vars'
+import CloseButton from './CloseButton'
 const SingleProject = ({ id }) => {
     const { img, alt, text, title, url, urlExample } = pack.projects[id]
     return (
       <div  className="fakeContajner">
         <section className="article">
-          <Link to="/">
-            <h2 className="articleTitle"><span className="card-title">{title}</span></h2>
+            <CloseButton />
+            <h2 className="articleTitle white-text"><span className="card-title">{title}</span></h2>
             <img className="articleImg" src={img} alt={alt}/>
-            <p className="black-text">{text}</p>
-          </Link>
+            <p className="white-text">{text}</p>
           <div className="card-action">
-            <a target="_blank" href={url}>code</a>
-            <a target="_blank" href={urlExample}>live sample</a>
+            <a target="_blank" className="article-links" href={url}>code</a>
+            <a target="_blank" className="article-links" href={urlExample}>live sample</a>
           </div>
         </section>
       </div>
