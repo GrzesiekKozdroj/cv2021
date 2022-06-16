@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.977e8aac.chunk.css",
+    "main.js": "/cv/static/js/main.dba12a8a.chunk.js",
+    "main.js.map": "/cv/static/js/main.dba12a8a.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.2fe71083.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.2fe71083.js.map",
+    "static/css/2.e43d3303.chunk.css": "/cv/static/css/2.e43d3303.chunk.css",
+    "static/js/2.cc787f84.chunk.js": "/cv/static/js/2.cc787f84.chunk.js",
+    "static/js/2.cc787f84.chunk.js.map": "/cv/static/js/2.cc787f84.chunk.js.map",
+    "static/js/3.039132bd.chunk.js": "/cv/static/js/3.039132bd.chunk.js",
+    "static/js/3.039132bd.chunk.js.map": "/cv/static/js/3.039132bd.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "static/css/2.e43d3303.chunk.css.map": "/cv/static/css/2.e43d3303.chunk.css.map",
+    "static/css/main.977e8aac.chunk.css.map": "/cv/static/css/main.977e8aac.chunk.css.map",
+    "static/js/2.cc787f84.chunk.js.LICENSE.txt": "/cv/static/js/2.cc787f84.chunk.js.LICENSE.txt",
+    "static/media/Godtear.e33395c2.png": "/cv/static/media/Godtear.e33395c2.png",
+    "static/media/forum.505b2df4.png": "/cv/static/media/forum.505b2df4.png",
+    "static/media/fractal.2353925e.png": "/cv/static/media/fractal.2353925e.png",
+    "static/media/guildball.56a9f775.jpg": "/cv/static/media/guildball.56a9f775.jpg",
+    "static/media/logo.5b9d68b8.ico": "/cv/static/media/logo.5b9d68b8.ico",
+    "static/media/mailing_pod_chmurami.635e4bfb.jpg": "/cv/static/media/mailing_pod_chmurami.635e4bfb.jpg",
+    "static/media/mern.66df13ca.jpg": "/cv/static/media/mern.66df13ca.jpg",
+    "static/media/oldCV.4a279df5.jpg": "/cv/static/media/oldCV.4a279df5.jpg",
+    "static/media/photor.f4b5a935.jpg": "/cv/static/media/photor.f4b5a935.jpg",
+    "static/media/rusersapp.35dbfb87.png": "/cv/static/media/rusersapp.35dbfb87.png",
+    "static/media/sitonchair.d3249dba.jpg": "/cv/static/media/sitonchair.d3249dba.jpg",
+    "static/media/spawacz.aeafd88f.jpg": "/cv/static/media/spawacz.aeafd88f.jpg",
+    "static/media/tech-doc.b9adab6d.png": "/cv/static/media/tech-doc.b9adab6d.png",
+    "static/media/todos.00e484a3.png": "/cv/static/media/todos.00e484a3.png",
+    "static/media/ttt5.41b53147.jpg": "/cv/static/media/ttt5.41b53147.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fe71083.js",
+    "static/css/2.e43d3303.chunk.css",
+    "static/js/2.cc787f84.chunk.js",
+    "static/css/main.977e8aac.chunk.css",
+    "static/js/main.dba12a8a.chunk.js"
+  ]
+}
